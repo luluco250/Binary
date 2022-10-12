@@ -4,7 +4,7 @@
 		<OutputType>WinExe</OutputType>
 		<UseWindowsForms>true</UseWindowsForms>
 		<AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
-		<Platforms>x64;x86</Platforms>
+		<Platforms>x86</Platforms>
 		<LangVersion>latest</LangVersion>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<TreatWarningsAsErrors>true</TreatWarningsAsErrors>
@@ -15,7 +15,7 @@
 	</ItemGroup>
 	<ItemGroup>
 		<Reference Include="GlobalLib">
-			<HintPath>../../GlobalLib/GlobalLib/bin/$(Configuration)/GlobalLib.dll</HintPath>
+			<HintPath>../../GlobalLib/GlobalLib/bin/$(Platform)/$(Configuration)/GlobalLib.dll</HintPath>
 		</Reference>
 	</ItemGroup>
 	<ItemGroup>
