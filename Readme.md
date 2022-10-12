@@ -1,3 +1,7 @@
+Fork of Binary that removes the admin check so that it works with Wine on Linux.
+Also removes the password check.
+___
+
 ﻿![](https://cdn.discordapp.com/attachments/696160463192326154/697376548894015528/binary_logo.png)
 
 
